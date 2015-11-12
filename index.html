@@ -1,22 +1,22 @@
 ---
-
+title: titre page
 ---
 <html>
     <head>
-        <title>Site Marina V.</title>
+        <title>{{ site.title }} -  {{ page.title }}</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <header>
-            <h1>Site Marina V.</h1>
-	    <p>Description...</p>
+            <h1>{{ page.title }}</h1>
+	    <p>{{ site.description }}</p>
         </header>
         <main>
-	    <h2>Language...</h2> 
+	    <h2>{{ site.h2 }}</h2> 
         </main>
         <footer>
-	    <p>Contact</p>
+	    <p>{{ site.contact }}</p>
         </footer>
     </body>
 </html>

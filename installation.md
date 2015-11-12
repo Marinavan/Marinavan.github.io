@@ -1,3 +1,8 @@
+Git > logiciel de gestion de versions décentralisé (pas local, sur internet) sauvegarde incrémentale
+Github > service web d'hébergement et de gestion de développement de logiciels, utilisant le logiciel de gestion de versions Git
+Jekyll > logiciel open source permettant de générer des pages web statiques
+
+
 1-Allumer la machine virtuelle
 
 2-Ouvrir une fenêtre Terminal dans le répertoire "home"
@@ -22,3 +27,11 @@
 11-Installer Ruby : sudo apt-get install ruby-full
 
 12-Mise à jour de jekyll : sudo gem update jekyll
+ 
+
+Git:
+- git status
+- git add + nom fichier > ajouter un ficher 
+- git add . > ajouter tous les fichiers
+- git commit -am "_" > commentaire > fait une photographie de ton travail à un instant T > permet de revenir en arrière pour chaque commentaire enregistré 
+- git log >

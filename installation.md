@@ -35,3 +35,4 @@ Git:
 - git add . > ajouter tous les fichiers
 - git commit -am "_" > commentaire > fait une photographie de ton travail à un instant T > permet de revenir en arrière pour chaque commentaire enregistré 
 - git log >
+- git push > envoyer les modifications sur Github

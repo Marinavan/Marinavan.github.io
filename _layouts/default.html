@@ -1,0 +1,21 @@
+
+<html>
+    <head>
+        <title>{{ site.title }} -  {{ page.title }}</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <h1>{{ page.title }}</h1>
+	    <p>{{ page.description }}</p>
+        </header>
+        <main>
+	    <h2>{{ page.h2 }}</h2>
+		{{ content }}
+        </main>
+        <footer>
+	    <p>{{ site.contact }}</p>
+        </footer>
+    </body>
+</html>
